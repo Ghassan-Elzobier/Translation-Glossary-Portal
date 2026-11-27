@@ -9,4 +9,6 @@ Format: `- YYYY-MM-DD · area · what happened · what would have prevented it (
 
 ## Open
 
+- 2026-11-27 · guard · `npm run guard` died with a stack trace in a fresh clone, because `origin/main` had not been fetched · the guard naming the missing ref and the fetch command (done in the template; copy `scripts/guard.mjs` here)
+
 ## Done
